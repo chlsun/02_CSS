@@ -1,0 +1,30 @@
+.flex-container{
+    height: 75vh;
+    margin: 30px 20px;
+    display: flex;
+
+    /* flex-wrap : item을 한 줄/여러 줄로 배치하는 속성 */
+
+    /* 기본값(한 줄) */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex-flow : flex-direction + flex-wrap  */
+    /* flex-flow: column nowrap; */
+
+    /* justify-content : item 중심축 방향 정렬 */
+    justify-content: center;
+
+    /* align-items : item이 묶인 한 줄 안에서 교차축 방향 정렬 */
+    align-items: center;
+
+    /* align-content :baseline
+        -교차축 방향으로 item 묶음(wrap) 전체를 정렬하는 속성 */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+    /* align-content: space-between; */
+}
