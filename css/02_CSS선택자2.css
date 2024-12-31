@@ -1,0 +1,79 @@
+strong{
+    color: steelblue;
+    font-size: 18px;
+    text-decoration: underline;
+    font-family: '맑은고딕';
+}
+code{
+    background-color: #f5e7b2;
+    display: block;
+    font-weight: bold;
+}
+
+[name]{ background-color: rgb(235, 133, 133); }
+
+[name="aaa"]{ text-decoration: underline; }
+[name=bbb]{ font-size: 20px; }
+
+.parent-1 > li{
+    font-size: 24px;
+}
+
+.parent-1 > .child-1{
+    background-color: yellow;
+}
+
+.parent-1 > li > span{
+    background-color: red;
+}
+
+
+.parent-2 p{
+    background-color: cadetblue;
+}
+.parent-2 *{
+    font-family: '궁서체';
+}
+
+.test-btn{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    color: deeppink;
+    border: 2px solid deeppink;
+}
+.test-btn:hover{
+    background-color: deeppink;
+    color: white;
+}
+.test-btn:active{
+    transform: scale(0.9);
+}
+
+.input-1:focus{
+    background-color: lightgreen;
+}
+
+input[name=radioGroup]:checked{
+    width: 30px;
+    height: 30px;
+}
+input[name=checkGroup]:checked{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.input-3:enabled{
+    background-color: yellowgreen;
+}
+.input-3:disabled{
+    background-color: salmon;
+}
+
+
+

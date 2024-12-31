@@ -1,0 +1,36 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+}
+
+/* border테두리 */
+.border{
+    border: 10px solid black;
+}
+
+/* content(내용) */
+.content{
+    width: 150px;
+    height: 150px;
+    box-sizing: content-box;  /* width/height 설정 값이 content에만 적용 */
+}
+
+/* padding(채우기) */
+.padding{   
+    padding: 20px;
+    /* content - border 사이에 20px 만큼의 공간 생성(네방향) */
+}
+
+/* margin(여백, 간격) */
+.margin-1{
+    margin: 50px;   /* 상하좌우 다른 요소와 50px 만큼 간격설정 */
+}
+.margin-1{
+    margin: 100px;  /* 상하좌우 다른 요소와 100px 만큼 간격설정 */
+}
